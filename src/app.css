@@ -1,0 +1,68 @@
+body {
+  padding: 50px;
+  background-color: #0345A8;
+  font-family: sans-serif;
+}
+#root {
+  display: flex;
+  justify-content: center;
+}
+.header{
+  /* display: flex; */
+  margin: 4px;
+}
+.header input{
+  padding: 8px;
+  font-size: 23px;
+  text-transform: capitalize;
+
+  
+  /* display: flex; */
+  /* flex: 1 0 auto; */
+
+}
+.header button{
+  padding: 11px;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+form{
+  display: flex;
+align-items: baseline;
+}
+.header button:hover{
+background-color: 2F2D2E;
+cursor: pointer;
+}
+.edit:hover{
+ color: #FFE093;
+cursor: pointer;
+}
+.item-to-add{
+  background: rgba(255, 255, 255, 0.6);
+  display: flex;
+  margin: 7px; 
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 20px;
+  min-width: 400px;
+  max-width: 700px;
+}
+.icon-item{
+  margin-right: 10px;
+  
+}
+.item-center{
+  display: flex;
+  justify-content: space-between;
+  flex:1 0 auto;
+}
+.modify-div{
+  width: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.text-item{
+  max-width: 580px;
+  color: #2C1A01
+}
